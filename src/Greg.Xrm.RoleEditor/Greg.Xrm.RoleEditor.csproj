@@ -111,12 +111,14 @@
     <Compile Include="Services\Extensions.cs" />
     <Compile Include="Services\IPrivilegeClassificationProvider.cs" />
     <Compile Include="Services\MarkdownWriter.cs" />
+    <Compile Include="Services\PartialSaveException.cs" />
     <Compile Include="Services\PrivilegeClassificationProvider.cs" />
     <Compile Include="Services\RequestLogger.cs" />
     <Compile Include="Services\RoleTemplateBuilder.cs" />
     <Compile Include="Services\Snippets\IPrivilegeSnippetRepository.cs" />
     <Compile Include="Services\Snippets\PrivilegeSnippet.cs" />
     <Compile Include="Services\Snippets\PrivilegeSnippetRepository.cs" />
+    <Compile Include="Services\TransactionHelper.cs" />
     <Compile Include="Settings.cs" />
     <Compile Include="RoleEditorPlugin.cs" />
     <Compile Include="Views\AddUserRoles\AddUserRolesCommand.cs" />
